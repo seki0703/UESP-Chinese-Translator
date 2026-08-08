@@ -1,5 +1,5 @@
 [README.md](https://github.com/user-attachments/files/30848298/README.md)
-# UESP ANK Helper
+# UESP-Chinese-Translator
 
 一个面向中文《上古卷轴 V：天际》玩家的 UESP 浏览器辅助扩展。
 
@@ -112,7 +112,7 @@ Edge：
 edge://extensions/shortcuts
 ```
 
-找到 **UESP ANK Helper**，将「执行 ANK 术语替换」设置为：
+找到 **UESP-Chinese-Translator**，将「执行 ANK 术语替换」设置为：
 
 ```text
 Alt + Shift + Q
@@ -190,7 +190,7 @@ terms.json
 项目目前结构比较简单：
 
 ```text
-UESP-ANK-Helper/
+UESP-Chinese-Translator/
 ├── manifest.json
 ├── background.js
 ├── content.js
@@ -237,7 +237,7 @@ UESP
   ├── 提供任务、人物、地点、Lore 等资料
   │
   ↓
-UESP ANK Helper
+UESP-Chinese-Translator
   │
   ├── 中文 → 英文搜索
   │
@@ -284,6 +284,7 @@ UESP ANK Helper
 
 《The Elder Scrolls》系列及相关游戏文本、图片、文件、商标和其他素材的权利归其各自权利人所有。
 
+如有侵权，请联系作者，会立刻删除侵权内容。
 ## ❤️ 致谢
 
 感谢：
