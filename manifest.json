@@ -1,0 +1,39 @@
+{
+  "manifest_version": 3,
+  "name": "UESP ANK Helper",
+  "version": "1.1.0",
+  "description": "个人用 UESP ANK 术语替换工具：Alt+Shift+Q 执行英文→中文或中文→英文替换。",
+  "permissions": [],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "replace-ank": {
+      "suggested_key": {
+        "default": "Alt+Shift+Q"
+      },
+      "description": "执行 ANK 术语替换"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://en.uesp.net/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "terms.json"
+      ],
+      "matches": [
+        "https://en.uesp.net/*"
+      ]
+    }
+  ]
+}
