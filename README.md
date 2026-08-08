@@ -1,7 +1,11 @@
 [README.md](https://github.com/user-attachments/files/30848298/README.md)
-# UESP-Chinese-Translator
+# UESP 中文汉化助手 | UESP Chinese Translator
 
-一个面向中文《上古卷轴 V：天际》玩家的 UESP 浏览器辅助扩展。
+**上古卷轴5：天际（The Elder Scrolls V: Skyrim）UESP 中文翻译、中文汉化辅助工具。**
+
+帮助中文玩家直接使用 UESP 。支持中文搜索 UESP，将中文的地点、人物、任务、装备、武器、护甲、法术等名称转换为 UESP 英文名称；同时可以将 UESP 页面中的英文游戏专有名词替换为指定中文汉化译名，再配合 Chrome / Edge 浏览器自带网页翻译，实现接近中文 UESP 的阅读体验。
+
+目前默认使用 ANK 汉化术语表，并计划支持更多中文汉化方案。
 
 本项目不会复制或翻译 UESP 的内容，而是在浏览 UESP 时，通过本地术语表将游戏专有名词转换为指定中文汉化的译名，并利用浏览器自带的网页翻译功能完成剩余英文内容的翻译。
 
