@@ -177,7 +177,6 @@ terms.json
 
 未来也欢迎贡献者制作：
 
-- ANK 版
 - 蒹葭版
 - 官方繁中版
 - 其他汉化版本
@@ -277,7 +276,7 @@ UESP ANK Helper
 
 ## ⚠️ Disclaimer
 
-UESP ANK Helper 是一个非官方的社区工具。
+这是一个非官方的社区工具。
 
 本项目与 Bethesda Softworks、The Elder Scrolls、UESP、BWiki、ANK 或任何相关汉化团队不存在官方关联。
 
